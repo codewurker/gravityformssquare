@@ -1,0 +1,626 @@
+# Copyright (C) 2023 Gravity Forms
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms Square Add-On 2.1.0\n"
+"Report-Msgid-Bugs-To: https://gravityforms.com/support\n"
+"Last-Translator: Gravity Forms <support@gravityforms.com>\n"
+"Language-Team: Gravity Forms <support@gravityforms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-12-13T19:09:46+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: gravityformssquare\n"
+
+#. Plugin Name of the plugin
+msgid "Gravity Forms Square Add-On"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://gravityforms.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Integrates Gravity Forms with Square, enabling end users to purchase goods and services through Gravity Forms."
+msgstr ""
+
+#. Author of the plugin
+msgid "Gravity Forms"
+msgstr ""
+
+#: class-gf-square.php:266
+msgid "An error occurred while processing your request, please try again later."
+msgstr ""
+
+#: class-gf-square.php:313
+msgid "The credit card field will initiate once the payment condition is met."
+msgstr ""
+
+#: class-gf-square.php:314
+msgid "Please enter a full name."
+msgstr ""
+
+#: class-gf-square.php:315
+msgid "Please enter a valid card number."
+msgstr ""
+
+#: class-gf-square.php:316
+msgid "Please enter a valid security code."
+msgstr ""
+
+#: class-gf-square.php:317
+msgid "Please enter a valid expiration date."
+msgstr ""
+
+#: class-gf-square.php:318
+msgid "Please enter a valid zip code."
+msgstr ""
+
+#: class-gf-square.php:319
+msgid "Please fill in all credit card details."
+msgstr ""
+
+#: class-gf-square.php:320
+msgid "Card is not supported."
+msgstr ""
+
+#: class-gf-square.php:326
+msgid "SCA Verification failed, please try again."
+msgstr ""
+
+#: class-gf-square.php:354
+msgid "Are you sure you want to refund this payment?"
+msgstr ""
+
+#: class-gf-square.php:355
+msgid "Are you sure you want to cancel this subscription?"
+msgstr ""
+
+#: class-gf-square.php:365
+msgid "Square Receipt URL"
+msgstr ""
+
+#: class-gf-square.php:891
+msgid "Missing authentication data."
+msgstr ""
+
+#: class-gf-square.php:903
+msgid "No locations found. Please confirm your Square locations support credit card processing with a currency matching Gravity Forms settings."
+msgstr ""
+
+#: class-gf-square.php:907
+msgid "Invalid authentication data."
+msgstr ""
+
+#: class-gf-square.php:968
+msgid "Cannot complete request, please contact us for further assistance."
+msgstr ""
+
+#: class-gf-square.php:997
+msgid "Access denied."
+msgstr ""
+
+#: class-gf-square.php:1049
+msgid "Unable to revoke token at Square."
+msgstr ""
+
+#: class-gf-square.php:1103
+msgid "Payment could not be captured."
+msgstr ""
+
+#: class-gf-square.php:1136
+msgid "Unable to find entry."
+msgstr ""
+
+#: class-gf-square.php:1143
+msgid "Unable to find payment on Square"
+msgstr ""
+
+#: class-gf-square.php:1148
+msgid "This payment has a pending refund"
+msgstr ""
+
+#: class-gf-square.php:1290
+msgid "Unable to connect your Square account."
+msgstr ""
+
+#. translators: 1: reauthentication version number 2: open <a> tag, 3: close </a> tag
+#: class-gf-square.php:1310
+msgid "Gravity Forms Square v%1$s offers new features which require a re-authentication with Square. %2$sPlease disconnect and reconnect%3$s to reauthenticate your site to take advantage of these new features."
+msgstr ""
+
+#: class-gf-square.php:1353
+msgid "Account Settings"
+msgstr ""
+
+#: class-gf-square.php:1360
+msgid "Mode"
+msgstr ""
+
+#: class-gf-square.php:1368
+msgid "Live"
+msgstr ""
+
+#: class-gf-square.php:1372
+msgid "Sandbox"
+msgstr ""
+
+#: class-gf-square.php:1404
+msgid "Force SCA testing"
+msgstr ""
+
+#: class-gf-square.php:1422
+msgid "Business Location"
+msgstr ""
+
+#: class-gf-square.php:1525
+msgid "Connected to Square using custom app as: "
+msgstr ""
+
+#: class-gf-square.php:1527
+msgid "Connected to Square as: "
+msgstr ""
+
+#: class-gf-square.php:1531
+#: class-gf-square.php:1540
+msgid "Disconnect your Square account"
+msgstr ""
+
+#: class-gf-square.php:1538
+msgid "Disconnect this site only"
+msgstr ""
+
+#: class-gf-square.php:1539
+msgid "Disconnect all Gravity Forms sites connected to this Square account"
+msgstr ""
+
+#: class-gf-square.php:1565
+#: class-gf-square.php:1620
+msgid "Click here to connect your sandbox Square account"
+msgstr ""
+
+#: class-gf-square.php:1565
+#: class-gf-square.php:1620
+msgid "Click here to connect your live Square account"
+msgstr ""
+
+#: class-gf-square.php:1574
+msgid "I want to use a custom app."
+msgstr ""
+
+#. translators: 1. Open link tag 2. Close link tag
+#: class-gf-square.php:1577
+msgid "%1$sLearn more%2$s about connecting with Square."
+msgstr ""
+
+#: class-gf-square.php:1588
+msgid "OAuth Redirect URI"
+msgstr ""
+
+#: class-gf-square.php:1600
+msgid "App ID"
+msgstr ""
+
+#: class-gf-square.php:1610
+msgid "App Secret"
+msgstr ""
+
+#: class-gf-square.php:1627
+msgid "I do not want to use a custom app."
+msgstr ""
+
+#: class-gf-square.php:1634
+msgid "SSL Certificate Required"
+msgstr ""
+
+#. translators: 1: Open link tag 2: Close link tag
+#: class-gf-square.php:1636
+msgid "Make sure you have an SSL certificate installed and enabled, then %1$sclick here to continue%2$s."
+msgstr ""
+
+#: class-gf-square.php:1691
+msgid "Currency Mismatch"
+msgstr ""
+
+#. Translators: 1. Square Currency, 2. Gravity Forms Currency.
+#: class-gf-square.php:1693
+msgid "The selected Square business location currency is %1$s while Gravity Forms currency is %2$s, both currencies should match so you can receive payments to this location, please change your Gravity Forms currency setting."
+msgstr ""
+
+#: class-gf-square.php:1737
+#: class-gf-square.php:1739
+msgid "Authorize Only"
+msgstr ""
+
+#: class-gf-square.php:1740
+msgid "Enable this option if you would like to only authorize payments when the user submits the form. You will be able to capture the payment by clicking the capture button from the entry details page."
+msgstr ""
+
+#: class-gf-square.php:1785
+msgid "Email address"
+msgstr ""
+
+#: class-gf-square.php:1791
+msgid "First Name"
+msgstr ""
+
+#: class-gf-square.php:1797
+msgid "Last Name"
+msgstr ""
+
+#: class-gf-square.php:1803
+msgid "Address"
+msgstr ""
+
+#: class-gf-square.php:1808
+msgid "Address 2"
+msgstr ""
+
+#: class-gf-square.php:1813
+msgid "City"
+msgstr ""
+
+#: class-gf-square.php:1818
+msgid "State"
+msgstr ""
+
+#: class-gf-square.php:1823
+msgid "Zip"
+msgstr ""
+
+#: class-gf-square.php:1828
+msgid "Country"
+msgstr ""
+
+#. translators: placeholder 1 is the length of the billing cycle and placeholder 2 is the number of cycles.
+#: class-gf-square.php:2022
+msgid "Every %1$s for %2$s billing cycles."
+msgstr ""
+
+#: class-gf-square.php:2129
+msgid "Payment Authorized"
+msgstr ""
+
+#: class-gf-square.php:2130
+msgid "Payment Completed"
+msgstr ""
+
+#: class-gf-square.php:2131
+msgid "Payment Failed"
+msgstr ""
+
+#: class-gf-square.php:2132
+msgid "Payment Capture Failed"
+msgstr ""
+
+#: class-gf-square.php:2133
+msgid "Payment Refunded"
+msgstr ""
+
+#: class-gf-square.php:2134
+msgid "Subscription Cancelled"
+msgstr ""
+
+#: class-gf-square.php:2372
+msgid "Missing credit card information"
+msgstr ""
+
+#: class-gf-square.php:2525
+msgid "Please check your Square API settings"
+msgstr ""
+
+#: class-gf-square.php:2547
+msgid "Invalid square nonce"
+msgstr ""
+
+#: class-gf-square.php:2555
+msgid "Payment amount is smaller than the allowed amount for this business location"
+msgstr ""
+
+#: class-gf-square.php:2702
+msgid "Order item"
+msgstr ""
+
+#: class-gf-square.php:2842
+msgid "Payment has been completed. Amount: %1$s. Transaction Id: %2$s. Square Account : %3$s. Business Location: %4$s"
+msgstr ""
+
+#. translators: Amount of transaction.
+#: class-gf-square.php:3029
+msgid "Authorized payment has failed capture request. Amount: %s."
+msgstr ""
+
+#: class-gf-square.php:3172
+msgid "Authorized payments must be captured within six days otherwise they will be canceled."
+msgstr ""
+
+#: class-gf-square.php:3197
+msgid "View payment on Square dashboard."
+msgstr ""
+
+#: class-gf-square.php:3202
+msgid "You have to be logged in to the following square account for this link to work: "
+msgstr ""
+
+#: class-gf-square.php:3222
+msgid "Capture Payment"
+msgstr ""
+
+#: class-gf-square.php:3233
+msgid "Refund Pending"
+msgstr ""
+
+#: class-gf-square.php:3241
+msgid "Refund Payment"
+msgstr ""
+
+#: class-gf-square.php:3253
+msgid "Cancel Subscription"
+msgstr ""
+
+#: includes/class-data-sync.php:119
+msgid "There was a problem scheduling the Data Sync cron."
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:85
+msgid "Credit Card"
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:95
+msgid "Only one Square credit card field can be added to the form"
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:151
+msgid "Square"
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:307
+msgid "Card Details"
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:319
+#: includes/class-gf-field-square-creditcard.php:332
+msgid "Cardholder Name"
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:369
+#: includes/class-gf-field-square-creditcard.php:582
+#: includes/class-gf-field-square-creditcard.php:602
+msgid "Card Number"
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:388
+msgid "Please check your Square settings."
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:394
+msgid "Please create a Square feed."
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:400
+msgid "Please enable SSL to use Square."
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:533
+msgid "Field Style"
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:539
+msgid "Simplified"
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:544
+msgid "Traditional"
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:583
+msgid "MM/YY"
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:584
+msgid "CVV"
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:585
+#: includes/class-gf-field-square-creditcard.php:605
+msgid "Postal Code"
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:603
+msgid "Expires"
+msgstr ""
+
+#: includes/class-gf-field-square-creditcard.php:604
+msgid "CVV / CVC"
+msgstr ""
+
+#: includes/class-gf-square-api.php:505
+msgid "This payment has already been refunded"
+msgstr ""
+
+#: includes/class-gf-square-api.php:1112
+msgid "The card issuer declined the request because the card is expired."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1113
+msgid "Invalid credit card number."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1114
+msgid "Card has insufficient funds."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1115
+msgid "Invalid CVV."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1116
+msgid "Invalid postal code."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1117
+#: includes/class-gf-square-api.php:1120
+msgid "The card expiration date is either missing or incorrectly formatted."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1118
+msgid "The expiration year for the payment card is invalid."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1119
+msgid "The expiration date for the payment card is invalid."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1121
+msgid "The card is not supported in the merchant's geographic region."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1122
+msgid "The credit card provided is not from a supported issuer."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1123
+msgid "The entry method for the credit card (swipe, dip, tap) is not supported."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1124
+msgid "The card issuer requires that the card be read using a chip reader."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1125
+msgid "The encrypted card information is invalid."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1126
+msgid "The credit card cannot be validated based on the provided details."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1127
+msgid "The card expiration date is either invalid or indicates that the card is expired."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1128
+#: includes/class-gf-square-api.php:1129
+msgid "The credit card was decline by the issuer for an unspecified reason."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1130
+#: includes/class-gf-square-api.php:1131
+msgid "Required Data is missing."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1132
+msgid "Payment amount is greater than the account supported maximum."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1133
+msgid "Payment amount is less than the account supported minimum."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1134
+msgid "The card issuer declined the request because the postal code is invalid."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1135
+msgid "The currency associated with the payment is not valid for the provided funding source."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1136
+msgid "The funding source associated with the payment has limitations on how it can be used. For example, it is only valid for specific merchants or transaction types."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1137
+msgid "Payments in this region is not allowed."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1138
+msgid "The payment amount violates an associated transaction limit."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1139
+msgid "The transaction was declined because the card issuer requires voice authorization from the cardholder."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1140
+msgid "The card issuer declined the request because the PIN is invalid."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1141
+msgid "The payment was declined because manually keying-in the card information is disallowed. The card must be swiped, tapped, or dipped."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1142
+msgid "The requested payment amount is too high for the provided payment source."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1143
+msgid "The provided card data is invalid."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1144
+msgid "The provided email address is invalid."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1145
+msgid "The provided phone number is invalid."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1146
+msgid "The card was declined."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1147
+msgid "The CVV could not be verified."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1148
+msgid "The AVS could not be verified."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1149
+msgid "The payment card was declined with a request for the card holder to call the issuer."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1150
+msgid "The payment card was declined with a request for additional verification."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1151
+msgid "The card has exhausted its available pin entry retries set by the card issuer. Resolving the error typically requires the card holder to contact the card issuer."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1152
+msgid "The requested refund amount exceeds the amount available to refund."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1153
+msgid "The payment already has a pending refund."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1154
+msgid "The payment is not refundable. For example, a previous refund has already been rejected and no new refunds can be accepted."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1155
+msgid "The card issuer declined the refund.."
+msgstr ""
+
+#: includes/class-gf-square-api.php:1162
+msgid "An error occurred while processing your request."
+msgstr ""
+
+#: includes/class-square-subscriptions-handler.php:346
+#: includes/class-square-subscriptions-handler.php:447
+msgid "Please provide a valid email address"
+msgstr ""
+
+#: includes/class-square-subscriptions-handler.php:418
+msgid "Unable to retrieve subscription"
+msgstr ""
+
+#: includes/class-square-subscriptions-handler.php:594
+msgid "An unknown error has occurred."
+msgstr ""

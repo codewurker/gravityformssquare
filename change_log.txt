@@ -1,0 +1,93 @@
+### 2.1.0 | 2023-12-13
+- Added the Square receipt URL merge tag.
+- Updated the theme framework variables to be compatible with Gravity Forms 2.8.
+
+### 2.0.0 | 2023-07-20
+- Fixed an issue where the card details input is not displayed when using a conversational form.
+- Fixed an issue where payments fail when using a conversational form with page fields due to an invalid nonce.
+
+
+### 1.9 | 2023-05-11
+- Fixed an error where the credit card field doesn't display on multipage forms embedded using Ajax.
+
+
+### 1.8 | 2023-01-19
+- Added support for the new theme framework.
+- Added the Gravity Forms license key to the oAuth process.
+- Fixed an issue where a notice displays asking users to reauthenticate, even if they are not authenticated.
+- Fixed an issue where the add-on runs cron jobs to check for renewals even if it has never been configured.
+
+
+### 1.7 | 2022-05-31
+- Added [gform_square_card_details_style](https://docs.gravityforms.com/gform_square_card_details_style/) filter to replace [gform_square_card_style](https://docs.gravityforms.com/gform_square_card_style/).
+- Updated Square SDK from sqPaymentForm to Web Payments.
+- Updated field settings to remove the field style setting because new SDK doesn't support the traditional view.
+
+
+### 1.6 | 2022-02-10
+- Added support for indefinite subscriptions.
+- Fixed an issue that prevents the Square field from rendering on page load if the form has conditional logic set for other fields.
+- Fixed an issue where subscription creation fails if the existing customer does not hve a name.
+- Fixed an issue where clicking submit twice for a form with a form total of 0 bypasses required Cardholder Name field.
+- Fixed an issue where a form with a form total of 0 requires the Cardholder Name field.
+- Fixed a fatal error when getting refunds during the hourly `gravityformssquare_cron` job.
+- Fixed a fatal error which occurs on form render and the add-on settings pages for some hosting environments.
+- Updated plan names that are created in Square to be more accurate for new feeds.
+- Updated the styling for the disconnect alert messaging.
+- API: Updated to use the Square REST API instead of the Square PHP SDK, which will be removed in a future release.
+- API: Added support for using `define( 'GF_SQUARE_DEBUG', true );` in the wp-config.php file to log Square REST API request and response data.
+- API: Fixed an issue where the Square field is not initialized by frontend feed evaluation when the formId passed into the [gform_frontend_feeds_evaluated](https://docs.gravityforms.com/gform_frontend_feeds_evaluated/) callback is a string.
+
+
+### 1.5 | 2021-10-27
+- Updated the behavior when SSL is not enabled to display a better error message and prevent the field from loading.
+- Updated idempotency key methods to improve uniqueness.
+- Updated Square Connect SDK to the most-recent Square PHP SDK.
+- Fixed a typo in subscription cancellation error message.
+- Fixed a typo in the text domain for the authentication notice.
+- Fixed an issue that prevents payments from submitting when a Square field is used in combination with invisible reCAPTCHA.
+- Fixed an issue where a Javascript error occurs on multi page forms with AJAX enabled.
+- Fixed an issue that causes a fatal error when running the add-on on older versions of WordPress.
+- Fixed an issue that causes subscription metadata to be updated with every call to the Square API even if the details are unchanged.
+- Fixed an issue that prevents the Square field from initializing when conditional logic criteria are unmet.
+- Fixed an issue where the Square field is incorrectly rendered when another form field is configured with conditional logic rules.
+
+
+### 1.4 | 2021-02-24
+- Added support for creating subscriptions.
+- Added a cron job to handle data sync between Square and Gravity Forms.
+- Added a filter [gform_square_data_sync_enabled](https://docs.gravityforms.com/gform_square_data_sync_enabled/) to disable cron data sync.
+- Added a filter `gform_square_subscriptions_sync_delay` to adjust how much time between data syncs.
+- Added an admin notice that alerts site owners to re-authenticate Square to utilize the newest features.
+- Fixed the payment details link displaying on the entry detail page when the payment has not been captured.
+- Fixed a fatal error introduced with the multi-element field in version 1.3.
+
+
+### 1.3 | 2021-02-23
+- Added a form editor option to display the Square field as a multi-element credit card input which allows the input sub-labels to be customized e.g. change ZIP -> Postal Code.
+- Added support for refunding a payment from the entry detail page.
+- Added functionality to refund a payment from the entry details page.
+- Added support for card authorization and subsequent payment capture via the entry details page.
+- Fixed JavaScript error that prevented frontend forms from fully loading.
+
+
+### 1.2 | 2020-09-15
+- Added support for Gravity Forms 2.5.
+- Fixed an issue that leads to sending empty billing information to square.
+
+
+### 1.1 | 2020-08-12
+- Added the ability to authenticate a Square account using a custom app.
+- Added accessibility enhancements to how credit card errors are displayed and announced.
+- Updated missing credit card details error message.
+- Fixed an error that prevents updating the credit card nonce when the user enters new credit card number after SCA failure.
+- Fixed a PHP notice which occur when no billing address is provided.
+- Fixed an error that prevents creating an order when an empty line item is provided.
+- Fixed a PHP notice which occur when API error details is missing.
+- Fixed a PHP fatal error which can occur if a customer can not be created while creating an order.
+- Fixed naming of the Square field in various locations.
+- Fixed strings for translations.
+
+
+### 1.0 | 2020-03-18
+- All new!
